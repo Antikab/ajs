@@ -4,10 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-	"registry":"https://npm.pkg.github.com/"
- },
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
-	"build": "webpack --mode production",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,13 +20,11 @@
     "url": "https://github.com/Antikab/ajs/issues"
   },
   "homepage": "https://github.com/Antikab/ajs#readme",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
-    "babel-loader": "^9.1.2"
-  },
-  "devDependencies": {
+    "babel-loader": "^9.1.2",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   }
